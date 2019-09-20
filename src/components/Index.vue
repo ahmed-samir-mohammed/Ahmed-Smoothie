@@ -70,6 +70,9 @@ export default {
   .card {
     box-shadow: 0px 9px 20px #00000014 !important;
   }
+  .card:last-of-type {
+    margin-bottom: 3rem
+  }
   ul {
     margin-bottom: 0
   }

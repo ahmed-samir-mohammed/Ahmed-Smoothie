@@ -111,4 +111,10 @@ export default {
         position: absolute;
         bottom: 1rem
     }
+    @media (max-width: 767px) {
+        .add-smoothie {
+            max-width: 90%;
+            width: 90%;
+        }
+    }
 </style>
