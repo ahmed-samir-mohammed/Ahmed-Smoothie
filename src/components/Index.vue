@@ -4,7 +4,7 @@
       <div class="card-content">
         <i class="material-icons delete" @click="deleteSmoothie(smoothie.id)">delete</i>
         <h2 class="indigo-text"> {{ smoothie.title }} </h2>
-        <p class="indigo-text"> {{ smoothie.slug }} </p>
+        <!-- <p class="indigo-text"> {{ smoothie.slug }} </p> -->
         <ul class="ingredients">
           <li v-for="(ing, index) in smoothie.ingredients" :key="index">
             <span class="chip">
